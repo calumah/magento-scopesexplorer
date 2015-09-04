@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Ooworx_ScopesExplorer>
+      <version>0.1.0</version>
+    </Ooworx_ScopesExplorer>
+  </modules>
+  <global>
+    <blocks>
+      <adminhtml>
+	<rewrite>
+	  <system_config_form>Ooworx_ScopesExplorer_Block_System_Config_Form</system_config_form>
+	  <catalog_form_renderer_fieldset_element>Ooworx_ScopesExplorer_Block_Catalog_Form_Renderer_Fieldset_Element</catalog_form_renderer_fieldset_element>
+	</rewrite>
+      </adminhtml>      
+    </blocks>
+    <helpers>
+      <scopesexplorer>
+        <class>Ooworx_ScopesExplorer_Helper</class>
+      </scopesexplorer>
+    </helpers>
+  </global>
+</config> 
