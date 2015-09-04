@@ -1,1 +1,1 @@
-# scopesexplorer
+# Magento - ScopesExplorer
