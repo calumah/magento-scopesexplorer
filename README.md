@@ -27,7 +27,7 @@ Avoid to override function initFields for just get $path, maybe it's possible to
 
 ## Author(s)
 
-Ooworx // www.ooworx.com
+OOWORX // www.ooworx.com
  
 ## License
 
