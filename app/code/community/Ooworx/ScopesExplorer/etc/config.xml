@@ -12,7 +12,7 @@
 	  <system_config_form>Ooworx_ScopesExplorer_Block_System_Config_Form</system_config_form>
 	  <catalog_form_renderer_fieldset_element>Ooworx_ScopesExplorer_Block_Catalog_Form_Renderer_Fieldset_Element</catalog_form_renderer_fieldset_element>
 	</rewrite>
-      </adminhtml>      
+      </adminhtml>
     </blocks>
     <helpers>
       <scopesexplorer>
@@ -20,4 +20,4 @@
       </scopesexplorer>
     </helpers>
   </global>
-</config> 
+</config>
