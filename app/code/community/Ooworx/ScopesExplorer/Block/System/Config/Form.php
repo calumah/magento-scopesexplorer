@@ -34,7 +34,11 @@ class Ooworx_ScopesExplorer_Block_System_Config_Form extends Mage_Adminhtml_Bloc
          */
         $path = (string)$element->config_path;
         if (empty($path)) {
-            $path = $parent_args[2]->getName() . '/' . $parent_args[1]->getName() . '/' . $parent_args[3] . $element->getName();
+            if (isset($parent_args[3])) {
+                $path = $parent_args[2]->getName() . '/' . $parent_args[1]->getName() . '/' . $parent_args[3] . $element->getName();
+            } else {
+                $path = $parent_args[2]->getName() . '/' . $parent_args[1]->getName() . '/' . $element->getName();
+            }
         }
 
         // Original code
